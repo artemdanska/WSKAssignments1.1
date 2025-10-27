@@ -1,0 +1,38 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: aliceblue;
+  color: #333333;
+  margin: 30px;
+}
+
+a {
+  color: #f600b5;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+a:hover {
+  color: #d93025;
+  text-decoration: underline;
+}
+
+img {
+  border: 10px solid #000000;
+  border-radius: 8px;
+  max-width: 100%;
+  display: block;
+  margin-top: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #04fec0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 4px 0;
+}
